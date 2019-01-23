@@ -1,0 +1,177 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /home/bopfactory/AndroidStudioProjects/AutoKinhseis/app/src/main/AndroidManifest.xml:2:1-27:12
+INJECTED from /home/bopfactory/AndroidStudioProjects/AutoKinhseis/app/src/main/AndroidManifest.xml:2:1-27:12
+INJECTED from /home/bopfactory/AndroidStudioProjects/AutoKinhseis/app/src/main/AndroidManifest.xml:2:1-27:12
+INJECTED from /home/bopfactory/AndroidStudioProjects/AutoKinhseis/app/src/main/AndroidManifest.xml:2:1-27:12
+MERGED from [com.android.support:design:28.0.0] /home/bopfactory/.gradle/caches/transforms-1/files-1.1/design-28.0.0.aar/9e03c487182e5235cb7f6fcadac7669d/AndroidManifest.xml:17:1-24:12
+MERGED from [com.android.support:appcompat-v7:28.0.0] /home/bopfactory/.gradle/caches/transforms-1/files-1.1/appcompat-v7-28.0.0.aar/73d770043c1c657bfb8c320e4f74881c/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-fragment:28.0.0] /home/bopfactory/.gradle/caches/transforms-1/files-1.1/support-fragment-28.0.0.aar/7d46c1b59ccf9bacfdd8e6c79b5e1789/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:animated-vector-drawable:28.0.0] /home/bopfactory/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-28.0.0.aar/d838bc5e5dc521f44deef2e8b1dc393d/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:recyclerview-v7:28.0.0] /home/bopfactory/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-28.0.0.aar/2807a3585c5587ce1b6278d24d8b7a1f/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-ui:28.0.0] /home/bopfactory/.gradle/caches/transforms-1/files-1.1/support-core-ui-28.0.0.aar/ec9086c670bb29dd6d6e301614fbbcf2/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-utils:28.0.0] /home/bopfactory/.gradle/caches/transforms-1/files-1.1/support-core-utils-28.0.0.aar/1720de32491d19c90dde43b6691f47c5/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-vector-drawable:28.0.0] /home/bopfactory/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-28.0.0.aar/6f560187cf581fccf820c9764b96292f/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:transition:28.0.0] /home/bopfactory/.gradle/caches/transforms-1/files-1.1/transition-28.0.0.aar/d1462cb304c1d0a3d94d523bede2a507/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:loader:28.0.0] /home/bopfactory/.gradle/caches/transforms-1/files-1.1/loader-28.0.0.aar/cc205d6d92a87ed6a7c5cdab5b1fca89/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:viewpager:28.0.0] /home/bopfactory/.gradle/caches/transforms-1/files-1.1/viewpager-28.0.0.aar/056a22882af6667dc753bafa644e645f/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:coordinatorlayout:28.0.0] /home/bopfactory/.gradle/caches/transforms-1/files-1.1/coordinatorlayout-28.0.0.aar/c91bef89b37f652de2420b7cee4f5452/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:drawerlayout:28.0.0] /home/bopfactory/.gradle/caches/transforms-1/files-1.1/drawerlayout-28.0.0.aar/3cac537f9a0b490bddc7cd6e6d7dcc69/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:slidingpanelayout:28.0.0] /home/bopfactory/.gradle/caches/transforms-1/files-1.1/slidingpanelayout-28.0.0.aar/af307af2c6e3a6714ef4ac5dd209a5cf/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:customview:28.0.0] /home/bopfactory/.gradle/caches/transforms-1/files-1.1/customview-28.0.0.aar/1d9298711ac701c44d5af7e836b657e2/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:swiperefreshlayout:28.0.0] /home/bopfactory/.gradle/caches/transforms-1/files-1.1/swiperefreshlayout-28.0.0.aar/da7732784406083b4bb91093a35217fb/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:asynclayoutinflater:28.0.0] /home/bopfactory/.gradle/caches/transforms-1/files-1.1/asynclayoutinflater-28.0.0.aar/664ede63bba214c24bff065b953d6ec1/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-compat:28.0.0] /home/bopfactory/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/50b19e93b68566d3bd965da682756763/AndroidManifest.xml:17:1-24:12
+MERGED from [com.android.support:versionedparcelable:28.0.0] /home/bopfactory/.gradle/caches/transforms-1/files-1.1/versionedparcelable-28.0.0.aar/8d5d2ee92ed1d8a826d3efbab70bccc0/AndroidManifest.xml:17:1-25:12
+MERGED from [com.android.support:cursoradapter:28.0.0] /home/bopfactory/.gradle/caches/transforms-1/files-1.1/cursoradapter-28.0.0.aar/32a0d46345237882ae7b326b928b72b1/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:cardview-v7:28.0.0] /home/bopfactory/.gradle/caches/transforms-1/files-1.1/cardview-v7-28.0.0.aar/8b23c6e22550625b3962af6051cca814/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:runtime:1.1.1] /home/bopfactory/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/c556f50c59603399bf9a183902f83605/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:documentfile:28.0.0] /home/bopfactory/.gradle/caches/transforms-1/files-1.1/documentfile-28.0.0.aar/1118acb3febcfe4b49fd8434472ae06f/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:localbroadcastmanager:28.0.0] /home/bopfactory/.gradle/caches/transforms-1/files-1.1/localbroadcastmanager-28.0.0.aar/8a3b714a8f42c36669c285e331738a97/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:print:28.0.0] /home/bopfactory/.gradle/caches/transforms-1/files-1.1/print-28.0.0.aar/e176a0b01c0e1ca61141685f943fc88f/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] /home/bopfactory/.gradle/caches/transforms-1/files-1.1/viewmodel-1.1.1.aar/365cab6b78cab7774fabcc7039a7f610/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:interpolator:28.0.0] /home/bopfactory/.gradle/caches/transforms-1/files-1.1/interpolator-28.0.0.aar/8ec6c71d6a5b664b82748e46c0395acc/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:livedata:1.1.1] /home/bopfactory/.gradle/caches/transforms-1/files-1.1/livedata-1.1.1.aar/2031f47afb1e8c9730b42298857cf0f8/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] /home/bopfactory/.gradle/caches/transforms-1/files-1.1/livedata-core-1.1.1.aar/e8d9adff5bf638cbe5e54f32079f594f/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.core:runtime:1.1.1] /home/bopfactory/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/039adb2bb8ba255f047c3d541b6b6450/AndroidManifest.xml:17:1-22:12
+INJECTED from /home/bopfactory/AndroidStudioProjects/AutoKinhseis/app/src/main/AndroidManifest.xml:2:1-27:12
+INJECTED from /home/bopfactory/AndroidStudioProjects/AutoKinhseis/app/src/main/AndroidManifest.xml:2:1-27:12
+INJECTED from /home/bopfactory/AndroidStudioProjects/AutoKinhseis/app/src/main/AndroidManifest.xml:2:1-27:12
+	package
+		ADDED from /home/bopfactory/AndroidStudioProjects/AutoKinhseis/app/src/main/AndroidManifest.xml:3:5-46
+		INJECTED from /home/bopfactory/AndroidStudioProjects/AutoKinhseis/app/src/main/AndroidManifest.xml
+		INJECTED from /home/bopfactory/AndroidStudioProjects/AutoKinhseis/app/src/main/AndroidManifest.xml
+	android:versionName
+		INJECTED from /home/bopfactory/AndroidStudioProjects/AutoKinhseis/app/src/main/AndroidManifest.xml
+		ADDED from /home/bopfactory/AndroidStudioProjects/AutoKinhseis/app/src/main/AndroidManifest.xml:2:1-27:12
+		INJECTED from /home/bopfactory/AndroidStudioProjects/AutoKinhseis/app/src/main/AndroidManifest.xml
+	android:versionCode
+		INJECTED from /home/bopfactory/AndroidStudioProjects/AutoKinhseis/app/src/main/AndroidManifest.xml
+		ADDED from /home/bopfactory/AndroidStudioProjects/AutoKinhseis/app/src/main/AndroidManifest.xml:2:1-27:12
+		INJECTED from /home/bopfactory/AndroidStudioProjects/AutoKinhseis/app/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /home/bopfactory/AndroidStudioProjects/AutoKinhseis/app/src/main/AndroidManifest.xml:2:11-69
+uses-permission#android.permission.GET_ACCOUNTS
+ADDED from /home/bopfactory/AndroidStudioProjects/AutoKinhseis/app/src/main/AndroidManifest.xml:5:5-71
+	android:name
+		ADDED from /home/bopfactory/AndroidStudioProjects/AutoKinhseis/app/src/main/AndroidManifest.xml:5:22-68
+uses-permission#android.permission.READ_PROFILE
+ADDED from /home/bopfactory/AndroidStudioProjects/AutoKinhseis/app/src/main/AndroidManifest.xml:6:5-71
+	android:name
+		ADDED from /home/bopfactory/AndroidStudioProjects/AutoKinhseis/app/src/main/AndroidManifest.xml:6:22-68
+uses-permission#android.permission.READ_CONTACTS
+ADDED from /home/bopfactory/AndroidStudioProjects/AutoKinhseis/app/src/main/AndroidManifest.xml:7:5-72
+	android:name
+		ADDED from /home/bopfactory/AndroidStudioProjects/AutoKinhseis/app/src/main/AndroidManifest.xml:7:22-69
+application
+ADDED from /home/bopfactory/AndroidStudioProjects/AutoKinhseis/app/src/main/AndroidManifest.xml:9:5-25:19
+MERGED from [com.android.support:design:28.0.0] /home/bopfactory/.gradle/caches/transforms-1/files-1.1/design-28.0.0.aar/9e03c487182e5235cb7f6fcadac7669d/AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:design:28.0.0] /home/bopfactory/.gradle/caches/transforms-1/files-1.1/design-28.0.0.aar/9e03c487182e5235cb7f6fcadac7669d/AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:support-compat:28.0.0] /home/bopfactory/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/50b19e93b68566d3bd965da682756763/AndroidManifest.xml:22:5-94
+MERGED from [com.android.support:support-compat:28.0.0] /home/bopfactory/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/50b19e93b68566d3bd965da682756763/AndroidManifest.xml:22:5-94
+MERGED from [com.android.support:versionedparcelable:28.0.0] /home/bopfactory/.gradle/caches/transforms-1/files-1.1/versionedparcelable-28.0.0.aar/8d5d2ee92ed1d8a826d3efbab70bccc0/AndroidManifest.xml:22:5-23:19
+MERGED from [com.android.support:versionedparcelable:28.0.0] /home/bopfactory/.gradle/caches/transforms-1/files-1.1/versionedparcelable-28.0.0.aar/8d5d2ee92ed1d8a826d3efbab70bccc0/AndroidManifest.xml:22:5-23:19
+	android:appComponentFactory
+		ADDED from [com.android.support:support-compat:28.0.0] /home/bopfactory/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/50b19e93b68566d3bd965da682756763/AndroidManifest.xml:22:18-91
+	android:supportsRtl
+		ADDED from /home/bopfactory/AndroidStudioProjects/AutoKinhseis/app/src/main/AndroidManifest.xml:14:9-35
+	android:label
+		ADDED from /home/bopfactory/AndroidStudioProjects/AutoKinhseis/app/src/main/AndroidManifest.xml:12:9-41
+	android:roundIcon
+		ADDED from /home/bopfactory/AndroidStudioProjects/AutoKinhseis/app/src/main/AndroidManifest.xml:13:9-54
+	android:icon
+		ADDED from /home/bopfactory/AndroidStudioProjects/AutoKinhseis/app/src/main/AndroidManifest.xml:11:9-43
+	android:allowBackup
+		ADDED from /home/bopfactory/AndroidStudioProjects/AutoKinhseis/app/src/main/AndroidManifest.xml:10:9-35
+	android:theme
+		ADDED from /home/bopfactory/AndroidStudioProjects/AutoKinhseis/app/src/main/AndroidManifest.xml:15:9-40
+activity#com.example.comana.autokinhseis.LoginActivity
+ADDED from /home/bopfactory/AndroidStudioProjects/AutoKinhseis/app/src/main/AndroidManifest.xml:16:9-24:20
+	android:label
+		ADDED from /home/bopfactory/AndroidStudioProjects/AutoKinhseis/app/src/main/AndroidManifest.xml:18:13-45
+	android:name
+		ADDED from /home/bopfactory/AndroidStudioProjects/AutoKinhseis/app/src/main/AndroidManifest.xml:17:13-42
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from /home/bopfactory/AndroidStudioProjects/AutoKinhseis/app/src/main/AndroidManifest.xml:19:13-23:29
+action#android.intent.action.MAIN
+ADDED from /home/bopfactory/AndroidStudioProjects/AutoKinhseis/app/src/main/AndroidManifest.xml:20:17-69
+	android:name
+		ADDED from /home/bopfactory/AndroidStudioProjects/AutoKinhseis/app/src/main/AndroidManifest.xml:20:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /home/bopfactory/AndroidStudioProjects/AutoKinhseis/app/src/main/AndroidManifest.xml:22:17-77
+	android:name
+		ADDED from /home/bopfactory/AndroidStudioProjects/AutoKinhseis/app/src/main/AndroidManifest.xml:22:27-74
+uses-sdk
+INJECTED from /home/bopfactory/AndroidStudioProjects/AutoKinhseis/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /home/bopfactory/AndroidStudioProjects/AutoKinhseis/app/src/main/AndroidManifest.xml
+INJECTED from /home/bopfactory/AndroidStudioProjects/AutoKinhseis/app/src/main/AndroidManifest.xml
+MERGED from [com.android.support:design:28.0.0] /home/bopfactory/.gradle/caches/transforms-1/files-1.1/design-28.0.0.aar/9e03c487182e5235cb7f6fcadac7669d/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:design:28.0.0] /home/bopfactory/.gradle/caches/transforms-1/files-1.1/design-28.0.0.aar/9e03c487182e5235cb7f6fcadac7669d/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:appcompat-v7:28.0.0] /home/bopfactory/.gradle/caches/transforms-1/files-1.1/appcompat-v7-28.0.0.aar/73d770043c1c657bfb8c320e4f74881c/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:appcompat-v7:28.0.0] /home/bopfactory/.gradle/caches/transforms-1/files-1.1/appcompat-v7-28.0.0.aar/73d770043c1c657bfb8c320e4f74881c/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:28.0.0] /home/bopfactory/.gradle/caches/transforms-1/files-1.1/support-fragment-28.0.0.aar/7d46c1b59ccf9bacfdd8e6c79b5e1789/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:28.0.0] /home/bopfactory/.gradle/caches/transforms-1/files-1.1/support-fragment-28.0.0.aar/7d46c1b59ccf9bacfdd8e6c79b5e1789/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:28.0.0] /home/bopfactory/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-28.0.0.aar/d838bc5e5dc521f44deef2e8b1dc393d/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:28.0.0] /home/bopfactory/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-28.0.0.aar/d838bc5e5dc521f44deef2e8b1dc393d/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:recyclerview-v7:28.0.0] /home/bopfactory/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-28.0.0.aar/2807a3585c5587ce1b6278d24d8b7a1f/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:recyclerview-v7:28.0.0] /home/bopfactory/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-28.0.0.aar/2807a3585c5587ce1b6278d24d8b7a1f/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:28.0.0] /home/bopfactory/.gradle/caches/transforms-1/files-1.1/support-core-ui-28.0.0.aar/ec9086c670bb29dd6d6e301614fbbcf2/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:28.0.0] /home/bopfactory/.gradle/caches/transforms-1/files-1.1/support-core-ui-28.0.0.aar/ec9086c670bb29dd6d6e301614fbbcf2/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:28.0.0] /home/bopfactory/.gradle/caches/transforms-1/files-1.1/support-core-utils-28.0.0.aar/1720de32491d19c90dde43b6691f47c5/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:28.0.0] /home/bopfactory/.gradle/caches/transforms-1/files-1.1/support-core-utils-28.0.0.aar/1720de32491d19c90dde43b6691f47c5/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:28.0.0] /home/bopfactory/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-28.0.0.aar/6f560187cf581fccf820c9764b96292f/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:28.0.0] /home/bopfactory/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-28.0.0.aar/6f560187cf581fccf820c9764b96292f/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:transition:28.0.0] /home/bopfactory/.gradle/caches/transforms-1/files-1.1/transition-28.0.0.aar/d1462cb304c1d0a3d94d523bede2a507/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:transition:28.0.0] /home/bopfactory/.gradle/caches/transforms-1/files-1.1/transition-28.0.0.aar/d1462cb304c1d0a3d94d523bede2a507/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:loader:28.0.0] /home/bopfactory/.gradle/caches/transforms-1/files-1.1/loader-28.0.0.aar/cc205d6d92a87ed6a7c5cdab5b1fca89/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:loader:28.0.0] /home/bopfactory/.gradle/caches/transforms-1/files-1.1/loader-28.0.0.aar/cc205d6d92a87ed6a7c5cdab5b1fca89/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:viewpager:28.0.0] /home/bopfactory/.gradle/caches/transforms-1/files-1.1/viewpager-28.0.0.aar/056a22882af6667dc753bafa644e645f/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:viewpager:28.0.0] /home/bopfactory/.gradle/caches/transforms-1/files-1.1/viewpager-28.0.0.aar/056a22882af6667dc753bafa644e645f/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:coordinatorlayout:28.0.0] /home/bopfactory/.gradle/caches/transforms-1/files-1.1/coordinatorlayout-28.0.0.aar/c91bef89b37f652de2420b7cee4f5452/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:coordinatorlayout:28.0.0] /home/bopfactory/.gradle/caches/transforms-1/files-1.1/coordinatorlayout-28.0.0.aar/c91bef89b37f652de2420b7cee4f5452/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:drawerlayout:28.0.0] /home/bopfactory/.gradle/caches/transforms-1/files-1.1/drawerlayout-28.0.0.aar/3cac537f9a0b490bddc7cd6e6d7dcc69/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:drawerlayout:28.0.0] /home/bopfactory/.gradle/caches/transforms-1/files-1.1/drawerlayout-28.0.0.aar/3cac537f9a0b490bddc7cd6e6d7dcc69/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:slidingpanelayout:28.0.0] /home/bopfactory/.gradle/caches/transforms-1/files-1.1/slidingpanelayout-28.0.0.aar/af307af2c6e3a6714ef4ac5dd209a5cf/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:slidingpanelayout:28.0.0] /home/bopfactory/.gradle/caches/transforms-1/files-1.1/slidingpanelayout-28.0.0.aar/af307af2c6e3a6714ef4ac5dd209a5cf/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:customview:28.0.0] /home/bopfactory/.gradle/caches/transforms-1/files-1.1/customview-28.0.0.aar/1d9298711ac701c44d5af7e836b657e2/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:customview:28.0.0] /home/bopfactory/.gradle/caches/transforms-1/files-1.1/customview-28.0.0.aar/1d9298711ac701c44d5af7e836b657e2/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:swiperefreshlayout:28.0.0] /home/bopfactory/.gradle/caches/transforms-1/files-1.1/swiperefreshlayout-28.0.0.aar/da7732784406083b4bb91093a35217fb/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:swiperefreshlayout:28.0.0] /home/bopfactory/.gradle/caches/transforms-1/files-1.1/swiperefreshlayout-28.0.0.aar/da7732784406083b4bb91093a35217fb/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:asynclayoutinflater:28.0.0] /home/bopfactory/.gradle/caches/transforms-1/files-1.1/asynclayoutinflater-28.0.0.aar/664ede63bba214c24bff065b953d6ec1/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:asynclayoutinflater:28.0.0] /home/bopfactory/.gradle/caches/transforms-1/files-1.1/asynclayoutinflater-28.0.0.aar/664ede63bba214c24bff065b953d6ec1/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:28.0.0] /home/bopfactory/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/50b19e93b68566d3bd965da682756763/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:28.0.0] /home/bopfactory/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/50b19e93b68566d3bd965da682756763/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:versionedparcelable:28.0.0] /home/bopfactory/.gradle/caches/transforms-1/files-1.1/versionedparcelable-28.0.0.aar/8d5d2ee92ed1d8a826d3efbab70bccc0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:versionedparcelable:28.0.0] /home/bopfactory/.gradle/caches/transforms-1/files-1.1/versionedparcelable-28.0.0.aar/8d5d2ee92ed1d8a826d3efbab70bccc0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cursoradapter:28.0.0] /home/bopfactory/.gradle/caches/transforms-1/files-1.1/cursoradapter-28.0.0.aar/32a0d46345237882ae7b326b928b72b1/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cursoradapter:28.0.0] /home/bopfactory/.gradle/caches/transforms-1/files-1.1/cursoradapter-28.0.0.aar/32a0d46345237882ae7b326b928b72b1/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cardview-v7:28.0.0] /home/bopfactory/.gradle/caches/transforms-1/files-1.1/cardview-v7-28.0.0.aar/8b23c6e22550625b3962af6051cca814/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cardview-v7:28.0.0] /home/bopfactory/.gradle/caches/transforms-1/files-1.1/cardview-v7-28.0.0.aar/8b23c6e22550625b3962af6051cca814/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.1] /home/bopfactory/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/c556f50c59603399bf9a183902f83605/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.1] /home/bopfactory/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/c556f50c59603399bf9a183902f83605/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:documentfile:28.0.0] /home/bopfactory/.gradle/caches/transforms-1/files-1.1/documentfile-28.0.0.aar/1118acb3febcfe4b49fd8434472ae06f/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:documentfile:28.0.0] /home/bopfactory/.gradle/caches/transforms-1/files-1.1/documentfile-28.0.0.aar/1118acb3febcfe4b49fd8434472ae06f/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:localbroadcastmanager:28.0.0] /home/bopfactory/.gradle/caches/transforms-1/files-1.1/localbroadcastmanager-28.0.0.aar/8a3b714a8f42c36669c285e331738a97/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:localbroadcastmanager:28.0.0] /home/bopfactory/.gradle/caches/transforms-1/files-1.1/localbroadcastmanager-28.0.0.aar/8a3b714a8f42c36669c285e331738a97/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:print:28.0.0] /home/bopfactory/.gradle/caches/transforms-1/files-1.1/print-28.0.0.aar/e176a0b01c0e1ca61141685f943fc88f/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:print:28.0.0] /home/bopfactory/.gradle/caches/transforms-1/files-1.1/print-28.0.0.aar/e176a0b01c0e1ca61141685f943fc88f/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] /home/bopfactory/.gradle/caches/transforms-1/files-1.1/viewmodel-1.1.1.aar/365cab6b78cab7774fabcc7039a7f610/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] /home/bopfactory/.gradle/caches/transforms-1/files-1.1/viewmodel-1.1.1.aar/365cab6b78cab7774fabcc7039a7f610/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:interpolator:28.0.0] /home/bopfactory/.gradle/caches/transforms-1/files-1.1/interpolator-28.0.0.aar/8ec6c71d6a5b664b82748e46c0395acc/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:interpolator:28.0.0] /home/bopfactory/.gradle/caches/transforms-1/files-1.1/interpolator-28.0.0.aar/8ec6c71d6a5b664b82748e46c0395acc/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata:1.1.1] /home/bopfactory/.gradle/caches/transforms-1/files-1.1/livedata-1.1.1.aar/2031f47afb1e8c9730b42298857cf0f8/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata:1.1.1] /home/bopfactory/.gradle/caches/transforms-1/files-1.1/livedata-1.1.1.aar/2031f47afb1e8c9730b42298857cf0f8/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] /home/bopfactory/.gradle/caches/transforms-1/files-1.1/livedata-core-1.1.1.aar/e8d9adff5bf638cbe5e54f32079f594f/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] /home/bopfactory/.gradle/caches/transforms-1/files-1.1/livedata-core-1.1.1.aar/e8d9adff5bf638cbe5e54f32079f594f/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.1] /home/bopfactory/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/039adb2bb8ba255f047c3d541b6b6450/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.1] /home/bopfactory/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/039adb2bb8ba255f047c3d541b6b6450/AndroidManifest.xml:20:5-44
+INJECTED from /home/bopfactory/AndroidStudioProjects/AutoKinhseis/app/src/main/AndroidManifest.xml
+INJECTED from /home/bopfactory/AndroidStudioProjects/AutoKinhseis/app/src/main/AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from /home/bopfactory/AndroidStudioProjects/AutoKinhseis/app/src/main/AndroidManifest.xml
+		ADDED from /home/bopfactory/AndroidStudioProjects/AutoKinhseis/app/src/main/AndroidManifest.xml
+		INJECTED from /home/bopfactory/AndroidStudioProjects/AutoKinhseis/app/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /home/bopfactory/AndroidStudioProjects/AutoKinhseis/app/src/main/AndroidManifest.xml
+		ADDED from /home/bopfactory/AndroidStudioProjects/AutoKinhseis/app/src/main/AndroidManifest.xml
+		INJECTED from /home/bopfactory/AndroidStudioProjects/AutoKinhseis/app/src/main/AndroidManifest.xml
