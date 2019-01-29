@@ -1,3 +1,39 @@
 <resources>
     <string name="app_name">AutoKinhseis</string>
+    <string name="ix_main">Ι.Χ. Οχήματα</string>
+    <string name="epaggelmatika_main">Επαγγελματικά Οχήματα</string>
+    <string name="diplomata_main">Διπλώματα</string>
+    <string-array name="ix_list">
+        <item>Αλλαγή Χρώματος</item>
+        <item>Αντικατάσταση Άδειας Κυκλοφορίας</item>
+        <item>Αντικατάσταση Πινακίδων</item>
+        <item>Άρση Παρακράτησης Κυριότητας</item>
+        <item>Δήλωση Κλοπής Ι.Χ. ή Μοτοσυκλέτας</item>
+        <item>Εξαγωγή Ι.Χ. στο Εξωτερικό</item>
+        <item>Έκδοση Νέας Άδειας Κυκλοφορίας</item>
+        <item>Κάρτα Στάθμευσης ΑμεΑ</item>
+        <item>Κάρτα Στάθμευσης Μόνιμου Κατοίκου</item>
+        <item>Μεταβίβαση Αυτοκινήτου ή Μοτοσυκλέτας</item>
+        <item>Μεταβίβαση Ι.Χ. Λόγω Κληρονομιάς</item>
+        <item>Οριστική Διαγραφή Οχήματος</item>
+        <item>Οριστική Διαγραφή Ι.Χ. (πριν τις 4.3.2004)</item>
+        <item>Σημείωμα Ρυμούλκησης</item>
+    </string-array>
+    <string-array name="epaggelmatika_list">
+        <item>Αλλαγή Επωνυμίας - Νομικής Μορφής</item>
+        <item>Άρση Ακινησίας Φ.Ι.Χ. ή Λ.Ι.Χ.</item>
+        <item>Έκδοση Νέας Άδειας Φορτηγού</item>
+        <item>Επανέκδοση Άδειας Φ.Ι.Χ. ή Λ.Ι.Χ.</item>
+        <item>Κατάθεση Πινακίδων Φ.Ι.Χ. ή Λ.Ι.Χ.</item>
+        <item>Μεταβίβαση Φ.Ι.Χ. ή Λ.Ι.Χ. (Πώληση)</item>
+        <item>Μεταβίβαση Λόγω Κληρονομιάς</item>
+        <item>Μεταβίβαση Λόγω Λύσεως της Εταιρίας</item>
+    </string-array>
+    <string-array name="diplomata_list">
+        <item>Ανανέωση Διπλώματος Οδήγησης</item>
+        <item>Αντικατάσταση Παλαιάς Άδειας με Νέου Τύπου</item>
+        <item>Διεθνές Δίπλωμα Οδήγησης</item>
+        <item>Επανέκδοση Διπλώματος Οδήγησης</item>
+        <item>Μετατροπή Επαγγελματικής Άδειας σε Ερασιτεχνική</item>
+    </string-array>
 </resources>

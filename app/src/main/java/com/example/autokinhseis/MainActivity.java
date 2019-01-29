@@ -1,6 +1,7 @@
 package com.example.autokinhseis;
 
 import android.content.Intent;
+import android.content.res.Resources;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
@@ -18,6 +19,8 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+
+        final Resources res = getResources();
 
         logoImageButton = (ImageButton) findViewById(R.id.imageButton_logo);
         ixImageButton = (ImageButton) findViewById(R.id.imageButton_ix);
@@ -40,7 +43,9 @@ public class MainActivity extends AppCompatActivity {
         ixImageButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent i = new Intent(getApplicationContext(),IXMain.class);
+                Intent i = new Intent(getApplicationContext(), InfoType.class);
+                i.putExtra("list", res.getStringArray(R.array.ix_list));
+                i.putExtra("title", getString(R.string.ix_main));
                 startActivity(i);
             }
         });
@@ -48,7 +53,9 @@ public class MainActivity extends AppCompatActivity {
         epaggelmatikaImageButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent i = new Intent(getApplicationContext(),EpaggelmatikaMain.class);
+                Intent i = new Intent(getApplicationContext(), InfoType.class);
+                i.putExtra("list", res.getStringArray(R.array.epaggelmatika_list));
+                i.putExtra("title", getString(R.string.epaggelmatika_main));
                 startActivity(i);
             }
         });
@@ -56,7 +63,9 @@ public class MainActivity extends AppCompatActivity {
         diplomataImageButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent i = new Intent(getApplicationContext(),DiplomataMain.class);
+                Intent i = new Intent(getApplicationContext(), InfoType.class);
+                i.putExtra("list", res.getStringArray(R.array.diplomata_list));
+                i.putExtra("title", getString(R.string.diplomata_main));
                 startActivity(i);
             }
         });
