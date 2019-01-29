@@ -1,4 +1,4 @@
-﻿package com.example.autokinhseis;
+package com.example.autokinhseis;
 
 import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
@@ -34,6 +34,7 @@ public class DiplomataMain extends AppCompatActivity implements RecyclerViewAdap
             @Override
             public void onClick(View v) {
                 Intent i = new Intent(getApplicationContext(),MainActivity.class);
+                i.setFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
                 startActivity(i);
             }
         });

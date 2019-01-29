@@ -1,4 +1,4 @@
-﻿package com.example.autokinhseis;
+package com.example.autokinhseis;
 
 import android.content.Intent;
 import android.support.v4.content.ContextCompat;
@@ -35,6 +35,7 @@ public class IXMain extends AppCompatActivity implements RecyclerViewAdapter.OnC
             @Override
             public void onClick(View v) {
                 Intent i = new Intent(getApplicationContext(),MainActivity.class);
+                i.setFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
                 startActivity(i);
             }
         });
