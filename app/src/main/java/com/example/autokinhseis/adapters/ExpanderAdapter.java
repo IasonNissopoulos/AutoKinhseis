@@ -29,7 +29,7 @@ public class ExpanderAdapter extends ExpandableRecyclerViewAdapter<HeaderViewHol
 
     @Override
     public ContentViewHolder onCreateChildViewHolder(ViewGroup parent, int viewType) {
-        View view = LayoutInflater.from(parent.getContext()).inflate(R.layout.layout_listitem, parent, false);
+        View view = LayoutInflater.from(parent.getContext()).inflate(R.layout.layout_expanded_list_child, parent, false);
         return new ContentViewHolder(view);
     }
 

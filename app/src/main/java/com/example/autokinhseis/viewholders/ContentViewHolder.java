@@ -14,7 +14,7 @@ public class ContentViewHolder extends ChildViewHolder {
 
     public ContentViewHolder(View itemView) {
         super(itemView);
-        contentText = (TextView) itemView.findViewById(R.id.item_description);
+        contentText = (TextView) itemView.findViewById(R.id.child_text);
     }
 
     public void setContentText(String text) {

@@ -4,6 +4,7 @@ import android.content.Intent;
 import android.content.res.Resources;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.support.v7.widget.DividerItemDecoration;
 import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
 import android.util.Log;
@@ -41,6 +42,8 @@ public class InstructionsActivity extends AppCompatActivity {
         mAdapter = new ExpanderAdapter(headers);
         mRecyclerView.setLayoutManager(new LinearLayoutManager(InstructionsActivity.this));
         mRecyclerView.setAdapter(mAdapter);
+        DividerItemDecoration itemDecor = new DividerItemDecoration(this, DividerItemDecoration.VERTICAL);
+        mRecyclerView.addItemDecoration(itemDecor);
 
         logoImageButton = (ImageButton) findViewById(R.id.imageButton_logo_instructions);
 

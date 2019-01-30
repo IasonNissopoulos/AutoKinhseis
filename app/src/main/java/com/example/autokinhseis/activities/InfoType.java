@@ -94,35 +94,35 @@ public class InfoType extends AppCompatActivity implements RecyclerViewAdapter.O
         intent.putExtra("title", mItemTexts.get(position));
         Log.d(TAG, "onItemClick: put intent extra \"title\": " + mItemTexts.get(position));
 
-        int j = 0;
-        String source = mItemTexts.get(position);
-        Log.d(TAG, "onItemClick: source: " + source);
-        switch (source) {
-            case "Αλλαγή Χρώματος":
-                j = 0;
-                break;
-            case "Αλλαγή Επωνυμίας - Νομικής Μορφής":
-                j = 14;
-                break;
-            case "Ανανέωση Διπλώματος Οδήγησης":
-                j = 22;
-                break;
-        }
-
-//        if (j <= 4) {
-//            if (viewTitle.getText().toString().equals(getString(R.string.diplomata_main))) {
-//                j += 22;
-//            }
-//        } else if (j <= 7 && viewTitle.getText().toString().equals(getString(R.string.epaggelmatika_main))) {
-//            j +=14;
+//        int j = 0;
+//        String source = mItemTexts.get(position);
+//        Log.d(TAG, "onItemClick: source: " + source);
+//        switch (source) {
+//            case "Αλλαγή Χρώματος":
+//                j = 0;
+//                break;
+//            case "Αλλαγή Επωνυμίας - Νομικής Μορφής":
+//                j = 14;
+//                break;
+//            case "Ανανέωση Διπλώματος Οδήγησης":
+//                j = 22;
+//                break;
 //        }
-        Log.d(TAG, "onItemClick: position: " + j);
+
+        if (position <= 4) {
+            if (viewTitle.getText().toString().equals(getString(R.string.diplomata_main))) {
+                position += 22;
+            }
+        } else if (position <= 7 && viewTitle.getText().toString().equals(getString(R.string.epaggelmatika_main))) {
+            position +=14;
+        }
+        Log.d(TAG, "onItemClick: position: " + position);
 
         TypedArray papersTa = res.obtainTypedArray(R.array.papaers_ref);
         TypedArray instTa = res.obtainTypedArray(R.array.inst_ref);
-        int idPapers = papersTa.getResourceId(j, 0);
+        int idPapers = papersTa.getResourceId(position, 0);
         Log.d(TAG, "onItemClick: idPapers: " + idPapers);
-        int idInst = instTa.getResourceId(j, 0);
+        int idInst = instTa.getResourceId(position, 0);
         Log.d(TAG, "onItemClick: idInst: " + idInst);
 
 
