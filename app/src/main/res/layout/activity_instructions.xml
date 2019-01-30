@@ -4,10 +4,10 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".activities.InfoType">
+    tools:context=".activities.InstructionsActivity">
 
     <ImageButton
-        android:id="@+id/imageButton_logo_info_type"
+        android:id="@+id/imageButton_logo_instructions"
         android:layout_width="170dp"
         android:layout_height="170dp"
         android:layout_marginTop="16dp"
@@ -21,7 +21,7 @@
         app:srcCompat="@drawable/autokinhseis" />
 
     <TextView
-        android:id="@+id/textView_ix_title"
+        android:id="@+id/textView_instructions_title"
         android:layout_width="298dp"
         android:layout_height="wrap_content"
         android:layout_marginStart="151dp"
@@ -36,30 +36,32 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.502"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageButton_logo_info_type" />
+        app:layout_constraintTop_toBottomOf="@+id/imageButton_logo_instructions" />
 
     <android.support.v7.widget.RecyclerView
-        android:id="@+id/ix_list"
+        android:id="@+id/instructions_list"
         android:layout_width="0dp"
         android:layout_height="0dp"
         android:scrollbars="vertical"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageButton_logo_info_type">
+        app:layout_constraintTop_toBottomOf="@+id/divider_inst"
+        app:layout_constraintVertical_bias="0.0">
 
     </android.support.v7.widget.RecyclerView>
 
     <View
-        android:id="@+id/divider"
+        android:id="@+id/divider_inst"
         android:layout_width="409dp"
         android:layout_height="1dp"
         android:layout_marginTop="11dp"
         android:background="?android:attr/listDivider"
         android:visibility="visible"
-        app:layout_constraintBottom_toTopOf="@+id/ix_list"
+        app:layout_constraintBottom_toTopOf="@+id/instructions_list"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView_ix_title" />
+        app:layout_constraintTop_toBottomOf="@+id/textView_instructions_title" />
 
 </android.support.constraint.ConstraintLayout>

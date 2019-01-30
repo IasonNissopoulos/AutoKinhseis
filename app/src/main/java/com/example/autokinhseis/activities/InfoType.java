@@ -1,7 +1,8 @@
-package com.example.autokinhseis;
+package com.example.autokinhseis.activities;
 
 import android.content.Intent;
 import android.content.res.Resources;
+import android.content.res.TypedArray;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.support.v7.widget.DividerItemDecoration;
@@ -13,6 +14,9 @@ import android.widget.ImageButton;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import com.example.autokinhseis.R;
+import com.example.autokinhseis.adapters.RecyclerViewAdapter;
+
 import java.util.ArrayList;
 import java.util.Collections;
 
@@ -21,6 +25,7 @@ public class InfoType extends AppCompatActivity implements RecyclerViewAdapter.O
     private static final String TAG = "InfoType";
 
     private ImageButton logoImageButton;
+    private TextView viewTitle;
     private ArrayList<String> mItemTexts = new ArrayList<>();
 
     @Override
@@ -59,7 +64,7 @@ public class InfoType extends AppCompatActivity implements RecyclerViewAdapter.O
     private void setViews(String title, String[] list) {
         Log.d(TAG, "setViews: making views.");
 
-        TextView viewTitle = (TextView) findViewById(R.id.textView_ix_title);
+        viewTitle = (TextView) findViewById(R.id.textView_ix_title);
         viewTitle.setText(title);
 
         Collections.addAll(mItemTexts, list);
@@ -83,12 +88,49 @@ public class InfoType extends AppCompatActivity implements RecyclerViewAdapter.O
     public void onItemClick(int position) {
         Log.d(TAG, "onClick: clicked on: " + mItemTexts.get(position));
 
-        Toast.makeText(this, mItemTexts.get(position), Toast.LENGTH_SHORT).show();
+//        Toast.makeText(this, mItemTexts.get(position), Toast.LENGTH_SHORT).show();
         Resources res = getResources();
+        Intent intent = new Intent(getApplicationContext(), InstructionsActivity.class);
+        intent.putExtra("title", mItemTexts.get(position));
+        Log.d(TAG, "onItemClick: put intent extra \"title\": " + mItemTexts.get(position));
 
-        Intent intent = new Intent(getApplicationContext(), InfoType.class);
-        intent.putExtra("list", res.getStringArray(R.array.diplomata_list));
-        intent.putExtra("title", getString(R.string.diplomata_main));
+        int j = 0;
+        String source = mItemTexts.get(position);
+        Log.d(TAG, "onItemClick: source: " + source);
+        switch (source) {
+            case "Αλλαγή Χρώματος":
+                j = 0;
+                break;
+            case "Αλλαγή Επωνυμίας - Νομικής Μορφής":
+                j = 14;
+                break;
+            case "Ανανέωση Διπλώματος Οδήγησης":
+                j = 22;
+                break;
+        }
+
+//        if (j <= 4) {
+//            if (viewTitle.getText().toString().equals(getString(R.string.diplomata_main))) {
+//                j += 22;
+//            }
+//        } else if (j <= 7 && viewTitle.getText().toString().equals(getString(R.string.epaggelmatika_main))) {
+//            j +=14;
+//        }
+        Log.d(TAG, "onItemClick: position: " + j);
+
+        TypedArray papersTa = res.obtainTypedArray(R.array.papaers_ref);
+        TypedArray instTa = res.obtainTypedArray(R.array.inst_ref);
+        int idPapers = papersTa.getResourceId(j, 0);
+        Log.d(TAG, "onItemClick: idPapers: " + idPapers);
+        int idInst = instTa.getResourceId(j, 0);
+        Log.d(TAG, "onItemClick: idInst: " + idInst);
+
+
+        intent.putExtra("papers", res.getStringArray(idPapers));
+        Log.d(TAG, "onItemClick: put intent extra \"papers\": " + res.getStringArray(idPapers).toString());
+        intent.putExtra("instructions", res.getStringArray(idInst));
+        Log.d(TAG, "onItemClick: put intent extra \"instructions\": " + res.getStringArray(idInst).toString());
+
         startActivity(intent);
     }
 }
