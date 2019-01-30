@@ -3,6 +3,7 @@
     <string name="ix_main">Ι.Χ. Οχήματα</string>
     <string name="epaggelmatika_main">Επαγγελματικά Οχήματα</string>
     <string name="diplomata_main">Διπλώματα</string>
+    <color name="backgroundcolor">#d3d3d3</color>
     <string-array name="ix_list">
         <item>Αλλαγή Χρώματος</item>
         <item>Αντικατάσταση Άδειας Κυκλοφορίας</item>
